@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Javascript game - Tic Tack Toe</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="Css/style.css" />
+    </head>
+
+    <body>
+        <div id="information"></div>
+
+        <audio src="Assets/Sound/gameover.mp3" preload="auto" id="gameover">      </audio>
+
+        <img src="Assets/Graphics/Backgrounds/BackGround.png"           id="blackbackground"    class="gamesprite" />
+        <img src="Assets/Graphics/Backgrounds/BackGround 2.png"         id="ticTackBackground"  class="gamesprite" />
+        <img src="Assets/Graphics/Backgrounds/citybackground.jpg"       id="city"               class="gamesprite" />
+        
+        <div id="cardwraper">
+            <div id="textdiv">
+                <!-- This div is meant to send messenges back to end user / Player -->
+            </div>
+            
+            <div id="row1">
+                <div id="Card1" class="cardsleft"   onclick="Card1click()"></div>
+                <div id="Card2" class="cardscenter" onclick="Card2click()"></div>
+                <div id="Card3" class="cardsRight"  onclick="Card3click()"></div>
+            </div>
+
+            <div id="row2">
+                <div id="Card4" class="cardsleft"   onclick="Card4click()"></div>
+                <div id="Card5" class="cardscenter" onclick="Card5click()"></div>
+                <div id="Card6" class="cardsRight"  onclick="Card6click()"></div>
+            </div>
+
+            <div id="row3">
+                <div id="Card7" class="cardsleft"   onclick="Card7click()" ></div>
+                <div id="Card8" class="cardscenter" onclick="Card8click()"></div>
+                <div id="Card9" class="cardsRight"  onclick="Card9click()"></div>
+            </div>
+        </div>
+        <div id="resetbutton">
+            <button type="button" id="resetbutton2" onclick="reset()">Reset</button>
+        </div>
+        
+        <img src="Assets/Graphics/Cards/EmtyCard.png"                   id="cardEmpty"  class="gamesprite" />
+        <img src="Assets/Graphics/Cards/Circel.png"                     id="cardCircle" class="gamesprite" />
+        <img src="Assets/Graphics/Cards/cross.png"                      id="cardCross"  class="gamesprite" />
+
+        <script src="Javascript/Parameters.js">     </script>
+        <script src="Javascript/javascriptinput.js"></script>
+        <script src="Javascript/gpuPrintout.js">    </script>
+        <script src="Javascript/game.js">           </script>
+    </body>
+</html>

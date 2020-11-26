@@ -1,0 +1,170 @@
+body{
+      margin: auto;
+      background-color: wheat;
+}
+
+#cardwraper{
+      margin: auto;
+      width: 80%;
+      height: 900px;
+      background-color: rgba(0, 0, 255, 0.1);
+      border-radius: 25px;
+      box-shadow: 10px 10px;
+      border-style: groove;
+}
+
+#resetbutton{
+      margin: auto;
+      width: 20%;
+      height: 100px;
+      background-color: rgba(0, 255, 0, 0.1);
+      border-radius: 25px;
+      box-shadow: 10px 10px;
+      transition: 1s;
+}
+
+#resetbutton:hover{
+      width: 25%;
+      height: 105px;
+}
+
+#resetbutton2{
+      margin-top: 15px;
+      width: 100%;
+      height: 80%;
+      border-radius: 10px;
+      background-color: silver;
+}
+
+#textdiv{
+      margin: auto;
+      width: 82%;
+      height: 7%;
+      text-align: center;
+}
+
+#row1{
+      text-align: center;
+      margin: auto;
+      width: 82%;
+      height: 25%;
+}
+
+#row2{
+      text-align: center;
+      margin: auto;
+      width: 82%;
+      height: 25%;
+      margin-top: 5em;
+      margin-bottom: 5em;
+}
+
+#row3{
+      text-align: center;
+      margin: auto;
+      width: 82%;
+      height: 25%;
+}
+
+.cardsleft{
+      float: left;
+      width: 26%;
+      height: 100%;
+      background-color: beige;
+      display: inline-block;
+      background-repeat: no-repeat;
+      background-size: 100%, 100%;
+      border-radius: 25px;
+      transition: 1s;
+}
+
+.cardsleft:hover{
+      width: 27%;
+      height: 101%;
+      box-shadow: 10px 10px;
+}
+
+.cardscenter{
+      width: 26%;
+      height: 100%;
+      background-color: beige;
+      display: inline-block;
+      background-repeat: no-repeat;
+      background-size: 100%, 100%;
+      border-radius: 25px;
+      transition: 1s;
+}
+
+.cardscenter:hover{
+      width: 27%;
+      height: 101%;
+      box-shadow: 10px 10px;
+}
+
+.cardsRight{
+      float: right;
+      width: 26%;
+      height: 100%;
+      background-color: beige;
+      display: inline-block;
+      background-repeat: no-repeat;
+      background-size: 100%, 100%;
+      border-radius: 25px;
+      transition: 1s;
+}
+
+.cardsRight:hover{
+      width: 27%;
+      height: 101%;
+      box-shadow: 10px 10px;
+}
+
+#menybar{
+      background-image: radial-gradient(ellipse at top,#ffff66, transparent), radial-gradient(ellipse at bottom,#ffff66, transparent);;
+      width: 25%;
+      height: 40px;
+      text-align: center;
+      text-shadow: 2px 2px 2px black;
+      margin: auto;
+}
+      
+#information{
+      width: 800px;
+      position: absolute;
+      top: 100px;
+      left: 50%;
+      margin-left: -400px;
+      font-size: 50px;
+      color: red;
+      text-align: center;
+      text-shadow: 3px 3px 8px black;
+}
+
+#city{
+      display: none;
+}
+
+#ticTackBackground{
+      display: none;
+}
+
+#blackbackground{
+      display: none;
+}
+
+#card{
+      width: 100%;
+      height: 100%;
+}
+
+#cardEmpty{
+      display: none;
+}
+
+#cardCircle{
+      display: none;
+}
+
+#cardCross{
+      display: none;
+}
